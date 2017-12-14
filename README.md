@@ -29,27 +29,24 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 * Heroku
 
-`heroku create `
-    Creating app... done,
-    ⬢ salty-hamlet-22665
-https://salty-hamlet-22665.herokuapp.com/ | https://git.heroku.com/salty-hamlet-22665.git
+` heroku create angular-seo-gallery `
 
-    * Move
-    `"@angular/compiler-cli": "^4.0.0"` from devDependencies to dependencies so that Heroku will read it.
 
-    * add this to package.json:
-    ` "engines": {
-        "node": "6.9.5"
+* Move
+  `"@angular/compiler-cli": "^4.0.0"` from devDependencies to dependencies so that Heroku will read it.
 
-      }`
+* add this to package.json:
+  ` "engines": {
+     "node": ">= 7.6.0"
+     } `
 
-      ` touch server.js `
+  ` touch server.js `
 
-      ` npm i express --save `
+  ` npm i express --save `
 
-      ` ng build  `
+  ` ng build  `
 
-      ` npm start ` //starts index.html from dist folder
+  ` npm start ` //starts index.html from dist folder
 
 * take this out of .gitignore
 
