@@ -81,12 +81,12 @@ constructor(meta: Meta, title: Title) {
   {
   "url":"assets/img/pappyssunsetlandscape.jpg",
   "title":"Sunset at Pappy and Harriet's",
-  "caption":"Sunset in Pioneer Town CA."
+  "caption":"Sunset in Pioneer Town, CA."
   },
   {
   "url":"assets/img/pappysunset.jpg",
   "title":"Sunset at Pappy and Harriet's",
-  "caption":"Sunset in Pioneer Town CA."
+  "caption":"Sunset in Pioneer Town, CA."
   },
   {
   "url":"assets/img/sky.jpg",
