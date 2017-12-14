@@ -1,7 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 .body{
   background-color: #982607;
-  margin-left: 7%;
+  /* margin-left: 7%; */
+  display:flex;
+  justify-content: center;
+
 }
 
 p{
@@ -21,7 +24,7 @@ img{
 	flex-wrap: wrap;
 	justify-content: space-around;
 	/*margin: 60px auto;*/
- margin-top:60px;
+  margin-top:60px;
 
 
 }
