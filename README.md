@@ -31,7 +31,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ` heroku create angular-seo-gallery `
 
+* from existing Git repo:
 
+` heroku git:remote -a angular-seo-gallery `
+
+` heroku config:add NODE_ENV=production `
 * Move
   `"@angular/compiler-cli": "^4.0.0"` from devDependencies to dependencies so that Heroku will read it.
 
