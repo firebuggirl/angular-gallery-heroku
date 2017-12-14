@@ -1,11 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
-.body{
+body{
   background-color: #982607;
-  /* margin-left: 7%; */
+  margin-left: 7%;
   display:flex;
   justify-content: center;
 
 }
+
+@media (max-width: 550px) {
+  .body{
+    margin-left: 9%;
+  }
+ }
+
+ @media (min-width: 1500px) {
+   .body{
+     margin-left: 0%;
+   }
+  }
 
 p{
   color: #e4dbc1;
