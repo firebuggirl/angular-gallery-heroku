@@ -35,6 +35,9 @@ img{
 a:hover{
   color: #a0330b;
 }
+a:focus{
+  color: #bf4945;
+}
 
 #homeH1{
   color: #e4dbc1;
