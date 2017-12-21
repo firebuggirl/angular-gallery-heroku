@@ -207,8 +207,14 @@ MohaveComponent = __decorate([
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `.angular-cli.json`.
+// The file contents for the current environment will overwrite these during build.
 var environment = {
-    production: true
+    production: false,
+    apiUrl: 'http://example.com/api/'
 };
 //# sourceMappingURL=environment.js.map
 
@@ -352,8 +358,8 @@ var AboutComponent = (function () {
         title.setTitle('About Me Page');
         meta.addTags([
             { name: 'author', content: 'Juliette Tworsey' },
-            { name: 'keywords', content: 'kws, keywords, etc..' },
-            { name: 'description', content: 'Woo hoooooooooo!' }
+            { name: 'keywords', content: 'About' },
+            { name: 'description', content: 'About section' }
         ]);
     }
     AboutComponent.prototype.ngOnInit = function () {
@@ -393,13 +399,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+//import { Meta } from '@angular/platform-browser';
 
 var HomeComponent = (function () {
     function HomeComponent(meta, title) {
+        // constructor(private metaService: Meta) {
+        //
+        // this.metaService.addTag({property: 'og:video', content: 'http://example.com/movie.swf'});
+        //
+        // this.metaService.addTag({property: 'og:image', content: 'http://example.com/ogp.jpg'});
+        //
+        // this.metaService.removeTag("property='og:image'");
+        // console.log(this.metaService.getTags('property="og:video"'));
+        //
+        // this.metaService.updateTag({content: 'http://example.com/new-movie.swf'}, "property='og:video'");
         title.setTitle('My Spiffy Home Page');
         meta.addTags([
-            { name: 'author', content: 'Coursetro.com' },
-            { name: 'keywords', content: 'angular seo, angular 4 universal, etc' },
+            { name: 'author', content: 'Angular 4 Gallery' },
+            { name: 'keywords', content: 'angular seo, angular 4 universal, gallery, Mohave Desert' },
             { name: 'description', content: 'This is my Angular SEO-based App, enjoy it!' }
         ]);
         this.images = [

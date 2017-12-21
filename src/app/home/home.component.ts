@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Meta, Title } from "@angular/platform-browser";
+
+//import { Meta } from '@angular/platform-browser';
 import { trigger,style,transition,animate,keyframes,query,stagger } from '@angular/animations';
 
 @Component({
@@ -27,13 +29,29 @@ import { trigger,style,transition,animate,keyframes,query,stagger } from '@angul
 export class HomeComponent implements OnInit {
 
 images;
+
+
+
+
+
 constructor(meta: Meta, title: Title) {
+  // constructor(private metaService: Meta) {
+  //
+  // this.metaService.addTag({property: 'og:video', content: 'http://example.com/movie.swf'});
+  //
+  // this.metaService.addTag({property: 'og:image', content: 'http://example.com/ogp.jpg'});
+  //
+  // this.metaService.removeTag("property='og:image'");
+  // console.log(this.metaService.getTags('property="og:video"'));
+  //
+  // this.metaService.updateTag({content: 'http://example.com/new-movie.swf'}, "property='og:video'");
+
 
  title.setTitle('My Spiffy Home Page');
 
      meta.addTags([
-       { name: 'author',   content: 'Coursetro.com'},
-       { name: 'keywords', content: 'angular seo, angular 4 universal, etc'},
+       { name: 'author',   content: 'Angular 4 Gallery'},
+       { name: 'keywords', content: 'angular seo, angular 4 universal, gallery, Mohave Desert'},
        { name: 'description', content: 'This is my Angular SEO-based App, enjoy it!' }
      ]);
 

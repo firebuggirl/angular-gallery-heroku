@@ -14,8 +14,8 @@ constructor(meta: Meta, title: Title) {
 
      meta.addTags([
        { name: 'author',   content: 'Juliette Tworsey'},
-       { name: 'keywords', content: 'kws, keywords, etc..'},
-       { name: 'description', content: 'Woo hoooooooooo!' }
+       { name: 'keywords', content: 'About'},
+       { name: 'description', content: 'About section' }
      ]);
 
     }
