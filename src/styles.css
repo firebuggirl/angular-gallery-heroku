@@ -4,12 +4,16 @@ body{
   /* margin-left: 7%; */
   display:flex;
   justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-right: 0%;
+  margin-left: 0%;
 
 }
 
 @media (max-width: 550px) {
   .body{
-    margin-left: 9%;
+    /* margin-left: 9%; */
   }
  }
 
@@ -19,6 +23,20 @@ body{
    }
   }
 
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 7%;
+}
+
+@media (min-width: 1000px) {
+  .app{
+    margin-left: 0%;
+  }
+ }
 p{
   color: #e4dbc1;
 }
@@ -45,6 +63,7 @@ img{
   background-color: beige;
   padding: 3px;
   border-radius: 4px;
+  margin: 20px;
 }
 
 a:hover{
