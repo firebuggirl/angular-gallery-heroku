@@ -1,8 +1,8 @@
 import {Component, OnInit } from '@angular/core';
-import {TweenMax} from "gsap";
+//import {TweenMax} from "gsap";
 import { trigger,style,transition,animate,keyframes,query,stagger } from '@angular/animations';
 import { environment } from './../environments/environment';
-
+//import { Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'my-app',
@@ -32,6 +32,8 @@ export class AppComponent implements OnInit {
 //apiUrl = environment.apiUrl;
 
 constructor() {
+
+
 
 
 

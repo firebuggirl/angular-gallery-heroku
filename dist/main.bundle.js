@@ -17,7 +17,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+//import {TweenMax} from "gsap";
 
+//import { Meta } from '@angular/platform-browser';
 var AppComponent = (function () {
     //apiUrl = environment.apiUrl;
     function AppComponent() {
@@ -101,7 +103,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_10__mohave_mohave_component__["a" /* MohaveComponent */]
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */].withServerTransition({ appId: 'angular2-photo-gallery' }),
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */].withServerTransition({ appId: 'angular4-photo-gallery' }),
             __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],

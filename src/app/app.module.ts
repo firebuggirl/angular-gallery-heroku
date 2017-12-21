@@ -22,7 +22,7 @@ import { MohaveComponent } from './mohave/mohave.component';
 
   ],
   imports: [
-    BrowserModule.withServerTransition({appId: 'angular2-photo-gallery'}),
+    BrowserModule.withServerTransition({appId: 'angular4-photo-gallery'}),
     BrowserAnimationsModule,
     FormsModule,
     HttpModule,
